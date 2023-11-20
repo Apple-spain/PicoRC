@@ -1,0 +1,66 @@
+(footprint "1X04" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (descr "<b>PIN HEADER</b>")
+  (fp_text reference "REF**" (at 0 0) (layer "F.SilkS")
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    (tstamp ef6f0b67-ba6c-44b5-a235-5c537abf19c9)
+  )
+  (fp_text value "" (at 0 0) (layer "F.Fab")
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    (tstamp efc0a13b-72b6-4e9e-ac41-a417b66d2254)
+  )
+  (fp_line (start -5.08 -2.921) (end -5.08 2.286)
+    (stroke (width 0.2032) (type solid)) (layer "F.SilkS") (tstamp 58455be8-a055-4807-86a8-1229661467b9))
+  (fp_line (start 1.937 2.173) (end -4.888 2.173)
+    (stroke (width 0.6096) (type solid)) (layer "F.SilkS") (tstamp d2c9bbce-6b05-48d1-b1aa-6dc695ce46a5))
+  (fp_line (start 5 -3) (end -5 -3)
+    (stroke (width 0.254) (type solid)) (layer "F.SilkS") (tstamp cac2f96c-6626-4051-ac1c-20b738eaabc6))
+  (fp_line (start 5 2.3) (end 2.239 2.3)
+    (stroke (width 0.2032) (type solid)) (layer "F.SilkS") (tstamp 06d0dccd-0f48-4857-8da2-0c0259f8b1be))
+  (fp_line (start 5.08 -3.048) (end 5.08 2.286)
+    (stroke (width 0.2032) (type solid)) (layer "F.SilkS") (tstamp 1163e513-5760-478c-b531-abb4e79eb992))
+  (fp_poly
+    (pts
+      (xy -4.064 0.254)
+      (xy -3.556 0.254)
+      (xy -3.556 -0.254)
+      (xy -4.064 -0.254)
+    )
+
+    (stroke (width 0) (type default)) (fill solid) (layer "F.Fab") (tstamp 0fb5d96a-cc33-420f-b128-e549b9efba0c))
+  (fp_poly
+    (pts
+      (xy -1.524 0.254)
+      (xy -1.016 0.254)
+      (xy -1.016 -0.254)
+      (xy -1.524 -0.254)
+    )
+
+    (stroke (width 0) (type default)) (fill solid) (layer "F.Fab") (tstamp 9c9276dd-6630-4824-b122-60cfba068ede))
+  (fp_poly
+    (pts
+      (xy 1.016 0.254)
+      (xy 1.524 0.254)
+      (xy 1.524 -0.254)
+      (xy 1.016 -0.254)
+    )
+
+    (stroke (width 0) (type default)) (fill solid) (layer "F.Fab") (tstamp b69cccb5-ee9a-4904-a984-2422a8f9813f))
+  (fp_poly
+    (pts
+      (xy 3.556 0.254)
+      (xy 4.064 0.254)
+      (xy 4.064 -0.254)
+      (xy 3.556 -0.254)
+    )
+
+    (stroke (width 0) (type default)) (fill solid) (layer "F.Fab") (tstamp d990aecd-addc-487f-bec8-7159ee1a16c1))
+  (pad "1" thru_hole oval (at -3.81 0 90) (size 3.048 1.524) (drill 1.016) (layers "*.Cu" "*.Mask")
+    (solder_mask_margin 0.1016) (zone_connect 2) (thermal_bridge_angle 45) (tstamp 7b0c6ffa-ae4c-4e5c-a0b1-7ea409b1fe6a))
+  (pad "2" thru_hole oval (at -1.27 0 90) (size 3.048 1.524) (drill 1.016) (layers "*.Cu" "*.Mask")
+    (solder_mask_margin 0.1016) (zone_connect 2) (thermal_bridge_angle 45) (tstamp 9b99358e-da76-4684-bf3b-97215ea7a03b))
+  (pad "3" thru_hole oval (at 1.27 0 90) (size 3.048 1.524) (drill 1.016) (layers "*.Cu" "*.Mask")
+    (solder_mask_margin 0.1016) (zone_connect 2) (thermal_bridge_angle 45) (tstamp 8b984296-423b-4b66-a67f-32c94f35d820))
+  (pad "4" thru_hole oval (at 3.81 0 90) (size 3.048 1.524) (drill 1.016) (layers "*.Cu" "*.Mask")
+    (solder_mask_margin 0.1016) (zone_connect 2) (thermal_bridge_angle 45) (tstamp ce335f1c-667b-4874-92e7-38b4a3b8e279))
+)

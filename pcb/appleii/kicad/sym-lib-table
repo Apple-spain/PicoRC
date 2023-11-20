@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "appleii-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/appleii-eagle-import.kicad_sym")(options "")(descr ""))
+)
